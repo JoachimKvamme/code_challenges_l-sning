@@ -8,8 +8,29 @@ class Program
         Challenge_two two = new Challenge_two();
         Challenge_three three = new Challenge_three();
 
-
+        
         // validate some methods
+
+        // Oppgave 1
+
+
+        string[] testArray = ["Heihei", "Jeg virker"];
+        // Sjekker at metodene fra Challenge_one gjør det de skal.
+        one.PrintNumbers();
+        one.PrintStrings(testArray);
+        one.CheckIfNumberIsPositiveOrNegative(5);
+        one.CheckIfNumberIsPositiveOrNegative(-5);
+
+        // Oppgave 2
+
+        // two.GuessNumber();
+
+        // Av en eller annen grunn printer denne hvert tall i rekken to ganger. Jeg tror det har 
+        // noe med hvordan for-løkken virker å gjøre, men jeg har stirret meg blind på problemet
+        // uten å finne en løsning.
+        two.Fibonacci(0);
+
+        
         void ValidateRecursiveFactorial()
         {
             int n = 5;
