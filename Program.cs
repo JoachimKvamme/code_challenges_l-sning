@@ -25,10 +25,14 @@ class Program
 
         // two.GuessNumber();
 
-        // Av en eller annen grunn printer denne hvert tall i rekken to ganger. Jeg tror det har 
+        // Av en eller annen grunn printer denne hvert tall i rekken to ganger, men bare
+        // den delen av rekken som bor innenfor for-løkken. Jeg tror det har 
         // noe med hvordan for-løkken virker å gjøre, men jeg har stirret meg blind på problemet
         // uten å finne en løsning.
         two.Fibonacci(0);
+
+        two.CheckIfNumberIsEvenOrOdd(8);
+        two.CheckIfNumberIsEvenOrOdd(7);
 
         
         void ValidateRecursiveFactorial()

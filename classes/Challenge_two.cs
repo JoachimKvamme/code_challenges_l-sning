@@ -48,11 +48,17 @@ public class Challenge_two
 
     }
 
-    public void CheckIfNumberIsEvenOrOdd(double a, double b)
+    // Jeg endret denne til å bare ta en parameter, nå sjekker den om ett tall er et par- eller oddetall.
+    public void CheckIfNumberIsEvenOrOdd(double a)
     {
         // Todo: Check if a number is even or odd
         // if the number is even, write out "even"
         // if the number is odd, write out "odd"
-        Console.WriteLine("");
+        if (a % 2 == 0) {
+            Console.WriteLine("Even");
+        } else {
+            Console.WriteLine("Odd");
+        }
+        
     }
 }
