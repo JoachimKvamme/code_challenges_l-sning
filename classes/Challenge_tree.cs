@@ -46,7 +46,7 @@ public class Challenge_three
         char[] charArray = str.ToCharArray();
         Array.Reverse(charArray);
         str = "";
-        Console.WriteLine(charArray);
+        // Console.WriteLine(charArray);
         for (int i = 0; i < charArray.Length; i++)
         {
             str += charArray[i];

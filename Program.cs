@@ -57,6 +57,7 @@ class Program
 
         ValidateRecursiveFactorial();
 
+        // Sjekker at ReverseString() virker som den skal.
         Console.WriteLine(three.ReverseString("Heihei"));
     }
 }
