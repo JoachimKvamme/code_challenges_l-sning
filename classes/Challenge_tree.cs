@@ -35,6 +35,8 @@ public class Challenge_three
             return 1;
         }
         // n * Method(n - 1);
+        int n2 = n - 1;
+        n = n * RecursiveFactorial(n2);
         return n;
     }
 
