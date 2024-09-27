@@ -40,10 +40,17 @@ public class Challenge_three
         return n;
     }
 
-    public string ReverseString(string str)
+    public string? ReverseString(string str)
     {
         // Todo: reverse the given string
         char[] charArray = str.ToCharArray();
+        Array.Reverse(charArray);
+        str = "";
+        Console.WriteLine(charArray);
+        for (int i = 0; i < charArray.Length; i++)
+        {
+            str += charArray[i];
+        }
         return str;
     }
 }

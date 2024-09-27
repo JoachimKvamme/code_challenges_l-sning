@@ -39,7 +39,6 @@ class Program
         // Denne tar hvert tall mellom 1 og det brukeren leggeren inn, og sjekker om tallet er fizz, buzz eller fizzBuzz.
         three.FizzBuzz(20);
 
-        
         void ValidateRecursiveFactorial()
         {
             int n = 5;
@@ -57,5 +56,7 @@ class Program
         }
 
         ValidateRecursiveFactorial();
+
+        Console.WriteLine(three.ReverseString("Heihei"));
     }
 }
