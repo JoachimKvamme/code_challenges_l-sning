@@ -34,6 +34,11 @@ class Program
         two.CheckIfNumberIsEvenOrOdd(8);
         two.CheckIfNumberIsEvenOrOdd(7);
 
+        // Oppgave 3
+
+        // Denne tar hvert tall mellom 1 og det brukeren leggeren inn, og sjekker om tallet er fizz, buzz eller fizzBuzz.
+        three.FizzBuzz(20);
+
         
         void ValidateRecursiveFactorial()
         {
